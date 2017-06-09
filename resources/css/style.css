@@ -49,10 +49,71 @@ h1 {
 	align-self: center;
 	background-color: white;
 	font-size: 2rem;
+	font-weight: bold;
 	padding: 1.5rem 5rem;
+	position: relative;
+	top: 10rem;
+	right: -2rem;
 }
 
 .head-line {
-	align-self: center;
-	justify-self: flex-end;
+	align-content: center;
+	justify-content: flex-end;
+}
+
+/* Main */
+
+#paper {
+	width: 3.5rem;
+}
+
+#ruler,
+#truck {
+	width: 5rem;
+}
+
+.advantages {
+	justify-content: center;
+}
+
+.advantages-item {
+	align-items: center;
+	justify-content: space-around;
+	display: flex;
+	flex-direction: column;
+	height: 8rem;
+	width: 5rem;
+	padding: 3rem;
+	text-align: center;
+}
+
+.info {
+	justify-content: center;
+}
+
+.info-item {
+	padding-bottom: 5rem;
+	padding-left: 5%;
+	width: 35%;
+}
+
+.info-item h2 {
+	background-color: cadetblue;
+	color: white;
+	font-weight: bold;
+	font-size: 1rem;
+	padding: .5rem 1.25rem;
+	margin-bottom: 1rem;
+	width: 10rem;
+}
+
+/* Footer */
+
+.copyright {
+	padding: 4rem;
+}
+
+.copyright img {
+	height: 1.5rem;
+	padding-right: 1rem;
 }
